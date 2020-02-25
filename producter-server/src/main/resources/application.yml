@@ -1,0 +1,18 @@
+server:
+  port: 9002
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.9.223/security_authority
+    username: root
+    password: ablejava
+    driver-class-name: com.mysql.jdbc.Driver
+  main:
+    #允许我们自己覆盖spring放入到ioc容器中的对象
+    allow-bean-definition-overriding: true
+mybatis:
+  type-aliases-package: com.able.product.domain
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com.able.uaa: debug
