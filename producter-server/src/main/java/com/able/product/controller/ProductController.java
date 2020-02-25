@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("product")
 public class ProductController {
+
     @GetMapping("findAll")
     public String list(){
         return "显示所有";
