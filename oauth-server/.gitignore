@@ -29,7 +29,3 @@ build/
 
 ### VS Code ###
 .vscode/
-/.idea/
-/.mvn/
-/oauth-server/.mvn/
-/oauth-server/target/

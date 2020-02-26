@@ -17,6 +17,7 @@
 
     <modules>
         <module>producter-server</module>
+        <module>oauth-server</module>
     </modules>
 
     <properties>
