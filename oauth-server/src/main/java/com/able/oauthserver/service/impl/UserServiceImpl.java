@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
-@Service
+@Service("userService")
 @Transactional
 public class UserServiceImpl implements UserService {
 
